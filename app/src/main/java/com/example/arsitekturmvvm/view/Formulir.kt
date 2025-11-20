@@ -112,6 +112,7 @@ fun FormIsian(
             OutlinedTextField(
                 value = txtAlamat,
                 singleLine = true,
+                shape = MaterialTheme.shapes.medium,
                 modifier = Modifier
                     .padding(top=20.dp)
                     .width(250.dp),

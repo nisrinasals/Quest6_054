@@ -5,6 +5,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
@@ -33,6 +34,7 @@ fun DataApp(
             startDestination = Navigasi.Formulirku.name,
             modifier = Modifier.padding(isiRuang)){
             composable(route = Navigasi.Formulirku.name){
+                val konteks = LocalContext.current
                 FormIsian(
                     //pilihanJK = JenisK.map { id -> konteks.resources.getString}
                     OnSubmitBtnClick={

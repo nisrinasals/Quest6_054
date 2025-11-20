@@ -8,4 +8,6 @@
     <string name="laki">Laki-laki</string>
     <string name="wanita">Perempuan</string>
     <string name="detail">Detail</string>
+    <string name="tampil">Tampilan Data</string>
+    <string name="home">Form Isian</string>
 </resources>

@@ -70,6 +70,7 @@ fun FormIsian(
             OutlinedTextField(
                 value = txtNama,
                 singleLine = true,
+                shape = MaterialTheme.shapes.medium,
                 modifier = Modifier
                     .padding(top=20.dp)
                     .width(250.dp),

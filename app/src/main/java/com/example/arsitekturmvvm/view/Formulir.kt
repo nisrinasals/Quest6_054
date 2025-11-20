@@ -35,7 +35,7 @@ fun FormIsian(
 
     pilihanJK:List<String>,
     OnSubmitBtnClick : (MutableList<String>) -> Unit,
-
+    modifier: Modifier = Modifier
 ){
     Scaffold (modifier= Modifier,
         {

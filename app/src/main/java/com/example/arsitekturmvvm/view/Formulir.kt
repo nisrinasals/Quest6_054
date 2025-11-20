@@ -27,12 +27,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.example.arsitekturmvvm.R
 
 
 @Composable
 fun FormIsian(
-    jenisK:List<String> = listOf("Laki-laki", "Perempuan"),
-    OnSubmitBtnClick : () -> Unit
+
+    pilihanJK:List<String>,
+    OnSubmitBtnClick : (MutableList<String>) -> Unit,
+
 ){
     Scaffold (modifier= Modifier,
         {

@@ -46,6 +46,7 @@ fun DataApp(
             }
             composable(route = Navigasi.Detail.name){
                 TampilData(
+                    statusUiSiswa = uiState.value,
                     onBackBtnClick = {
                         cancelAndBackToFormulirku(navController)
                     }
